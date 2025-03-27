@@ -1,8 +1,9 @@
 import React from "react";
 import ArrowBtn from "../button/arrowBtn";
 import styles from "./feature.module.css";
-import { woman, dollar } from "@/images";
+import { woman, dollar, aeroplane, shield } from "@/images";
 import Image from "next/image";
+import FeaturesCard from "./featuresCard";
 
 const Feature = () => {
   return (
@@ -10,11 +11,11 @@ const Feature = () => {
       <div className="w-[90%]">
         <div className="flex">
           <div className="flex flex-col flex-[0.5] ">
-            <p className="text-[#FFFFFF] text-[18px] font-[500]">Feature</p>
+            <p className="text-[#FFFFFFB2]] text-[18px] font-[500]">Feature</p>
             <h2 className="text-[#FFFFFF] text-[40px] font-[600] mt-[10px]">
               Why choose Cryptic
             </h2>
-            <p className="text-[#FFFFFF] text-[16px] font-[400] max-w-[400px] mt-[30px] mb-[30px]">
+            <p className="text-[#FFFFFFB2] text-[16px] font-[400] max-w-[400px] mt-[30px] mb-[30px]">
               Manage different BTC, USDT, USDC, ETH, and more in one secure
               wallet. seamlessly switch
             </p>
@@ -44,6 +45,23 @@ const Feature = () => {
               className={`flex justify-start ${styles.image} mt-[20px]`}
             />
           </div>
+        </div>
+        <div className="flex mt-[20px] gap-[20px]">
+          <FeaturesCard
+            image={aeroplane}
+            quote="All IN ONE"
+            heading="Multi-chain support"
+            description="Manage different BTC, USDT, USDC, ETH, and more in one secure wallet.
+          seamlessly switch between chains with ease. No need for multiple
+          apps-everything is one place"
+          />
+          <FeaturesCard
+            image={shield}
+            quote="BUILT IN SECURITY"
+            heading="Secure & Private"
+            description="Your keys, your funds-no third party control over your assets. Advanced encryption ensures your transactions stay safe.
+Built-in-security features protects against fraud and hacking."
+          />
         </div>
       </div>
     </div>

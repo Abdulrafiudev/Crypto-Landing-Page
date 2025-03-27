@@ -9,6 +9,8 @@ import bitget from "../public/img/bitget.png";
 import gitcoin from "../public/img/gitcoin.png";
 import woman from "../public/img/woman.png";
 import dollar from "../public/img/dollar.png";
+import aeroplane from "../public/img/aeroplane.png";
+import shield from "../public/img/shield.png";
 
 export {
   logo,
@@ -22,4 +24,6 @@ export {
   gitcoin,
   woman,
   dollar,
+  aeroplane,
+  shield,
 };
