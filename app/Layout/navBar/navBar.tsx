@@ -7,7 +7,7 @@ import Link from "next/link";
 const NavBar = () => {
   return (
     <>
-      <div className="fixed top-0 right-0 left-0 h-[15%] flex justify-center">
+      <div className="fixed top-0 right-0 left-0 h-[15%] flex justify-center z-10">
         <div className="w-[90%] flex justify-between items-center">
           <Image src={logo} alt="logo" height={50} />
           <div className="flex gap-[40px]">
@@ -20,9 +20,14 @@ const NavBar = () => {
               );
             })}
           </div>
-          <div className="bg-[#1A60A6] px-[20px] py-[5px] rounded-[4px]">
-            <Link href={"#"}> Get Started</Link>
-          </div>
+
+          <Link
+            href={"#"}
+            className="bg-[#1A60A6] px-[20px] py-[5px] rounded-[4px]"
+          >
+            {" "}
+            Get Started
+          </Link>
         </div>
       </div>
     </>

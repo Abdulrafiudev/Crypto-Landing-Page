@@ -1,0 +1,12 @@
+.h1Color {
+  background: linear-gradient(
+    90.13deg,
+    #ffffff 2.73%,
+    #90b3d5 41.81%,
+    #ffffff 99.88%
+  );
+  /* for clipping a background color to a text */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
