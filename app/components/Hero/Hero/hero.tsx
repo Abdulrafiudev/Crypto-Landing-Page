@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./hero.module.css";
 import Link from "next/link";
 import { goArrow, iphone15, download, volume } from "@/images";
-
+import ArrowBtn from "../../button/arrowBtn";
 import Image from "next/image";
 
 const Hero = () => {
@@ -23,20 +23,13 @@ const Hero = () => {
           Start enjoying access to your currencies today
         </p>
         <div className="flex gap-[20px] mt-[30px]">
-          <Link
-            href="#"
-            className="bg-[#1A60A6] px-[20px] py-[8px] rounded-[4px] flex gap-[10px]"
-          >
-            Download App{" "}
-            <Image src={goArrow} alt="arrow" height={20} width={20} />
-          </Link>
-          <Link
-            href="#"
-            className="bg-[#1A60A61A] px-[20px] py-[8px] rounded-[4px] flex gap-[10px]"
-          >
-            Access From Web
-            <Image src={goArrow} alt="arrow" height={20} width={20} />
-          </Link>
+          <ArrowBtn className="bg-[#1A60A6] px-[20px] py-[8px] rounded-[4px] flex gap-[10px]">
+            Download App
+          </ArrowBtn>
+
+          <ArrowBtn className="bg-[#1A60A61A] px-[20px] py-[8px] rounded-[4px] flex gap-[10px]">
+            Access From The Web
+          </ArrowBtn>
         </div>
         <div className="mt-[80px] relative bg-[#1A60A61F] rounded-t-[80px] pt-[30px] pl-[25px] pr-[25px]">
           <Image src={iphone15} alt="ipone 15" />

@@ -7,6 +7,8 @@ import bitmap from "../public/img/bitmap.png";
 import bitmart from "../public/img/bitmart.png";
 import bitget from "../public/img/bitget.png";
 import gitcoin from "../public/img/gitcoin.png";
+import woman from "../public/img/woman.png";
+import dollar from "../public/img/dollar.png";
 
 export {
   logo,
@@ -18,4 +20,6 @@ export {
   bitmart,
   bitget,
   gitcoin,
+  woman,
+  dollar,
 };

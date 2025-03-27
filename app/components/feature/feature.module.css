@@ -1,0 +1,12 @@
+.backgroundBorder {
+  border-image: linear-gradient(
+    94.69deg,
+    rgba(33, 113, 192, 0.3) 14.69%,
+    rgba(15, 53, 90, 0) 98.55%
+  );
+  border-color: transparent;
+}
+.image {
+  height: 50px;
+  width: auto;
+}
