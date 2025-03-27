@@ -10,3 +10,6 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+.background {
+  background-image: url("background.png");
+}

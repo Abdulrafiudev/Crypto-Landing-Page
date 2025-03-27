@@ -2,12 +2,15 @@ import React from "react";
 import styles from "./hero.module.css";
 import Link from "next/link";
 import { goArrow, iphone15, download, volume } from "@/images";
+
 import Image from "next/image";
 
 const Hero = () => {
   return (
     <>
-      <div className="relative w-[100%] h-[auto] flex flex-col items-center mt-[100px] pt-[50px]">
+      <div
+        className={`relative w-[100%] h-[auto] flex flex-col items-center  pt-[150px] ${styles.background}  bg-cover bg-center`}
+      >
         <h1
           className={`${styles.h1Color} max-w-[900px] text-[64px] text-center font-[500]`}
         >
