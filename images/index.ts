@@ -11,6 +11,7 @@ import woman from "../public/img/woman.png";
 import dollar from "../public/img/dollar.png";
 import aeroplane from "../public/img/aeroplane.png";
 import shield from "../public/img/shield.png";
+import process from "../public/img/process.png";
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   dollar,
   aeroplane,
   shield,
+  process,
 };

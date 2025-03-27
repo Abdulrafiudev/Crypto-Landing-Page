@@ -24,7 +24,7 @@ const Feature = () => {
             </ArrowBtn>
           </div>
           <div
-            className={`flex-1 bg-[#0D0D0D] border-[1px] border-solid ${styles.backgroundBorder} rounded-[30px] flex pr-[20px] `}
+            className={`flex-1 bg-[#0D0D0D] border-[1px] border-solid  rounded-[30px] flex pr-[20px] border-[#2171C04D]`}
           >
             <Image src={woman} alt="woman" />
             <div className="mt-[60px] flex flex-col">
@@ -46,7 +46,7 @@ const Feature = () => {
             />
           </div>
         </div>
-        <div className="flex mt-[20px] gap-[20px]">
+        <div className="flex mt-[40px] gap-[20px]">
           <FeaturesCard
             image={aeroplane}
             quote="All IN ONE"
