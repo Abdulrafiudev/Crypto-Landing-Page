@@ -12,6 +12,10 @@ import dollar from "../public/img/dollar.png";
 import aeroplane from "../public/img/aeroplane.png";
 import shield from "../public/img/shield.png";
 import process from "../public/img/process.png";
+import iphone15top from "../public/img/iphone15top.png";
+import feature1list from "../public/img/feature1list.png";
+import tick from "../public/img/tick.png";
+import iphone15bottom from "../public/img/iphone15bottom.png";
 
 export {
   logo,
@@ -28,4 +32,8 @@ export {
   aeroplane,
   shield,
   process,
+  iphone15top,
+  feature1list,
+  tick,
+  iphone15bottom,
 };

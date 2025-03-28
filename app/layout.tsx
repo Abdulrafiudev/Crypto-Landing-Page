@@ -10,7 +10,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "Crpto Landing Page",
+  title: "Crypto Landing Page",
   description: "A landing page for a crypto project",
 };
 
