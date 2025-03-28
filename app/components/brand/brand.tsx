@@ -5,7 +5,7 @@ import brandList from "./brandList";
 const Brand = () => {
   return (
     <div className="w-full h-auto flex justify-center mt-[70px] pt-[30px] pb-[30px]">
-      <div className="w-[fit] flex justify-between gap-[20px] border-[1px] border-[#3C3C3C] border-solid">
+      <div className="w-[fit] flex justify-between gap-[20px] border-[1px] border-[#3C3C3C] border-solid max-[38em]:w-[90%] max-[38em]:flex-wrap">
         {brandList.map((brand) => {
           return (
             <Image
@@ -13,6 +13,7 @@ const Brand = () => {
               src={brand.image}
               alt={brand.alt}
               width={250}
+              className="max-[38em]:w-[150px]"
             />
           );
         })}

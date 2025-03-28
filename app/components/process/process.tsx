@@ -6,9 +6,9 @@ import Image from "next/image";
 const Process = () => {
   return (
     <div className="mt-[100px] w-full flex justify-center pt-[50px] flex-col items-center gap-[70px]">
-      <div className="flex flex-col items-center gap-[20px]">
+      <div className="flex flex-col items-center gap-[20px] max-[38em]:w-[80%]">
         <p className="text-[#FFFFFFB2] text-[18px] font-[500]">Step by Step</p>
-        <p className="text-[#FFFFFF] font-[500] text-[40px]">
+        <p className="text-[#FFFFFF] font-[500] text-[40px] max-[38em]:text-[30px]">
           How Does Cryptic Work
         </p>
         <ArrowBtn
@@ -16,7 +16,11 @@ const Process = () => {
           children="Get Started"
         />
       </div>
-      <Image src={process} alt="process" />
+      <Image
+        src={process}
+        alt="process"
+        className="max-[38em]:w-[90%] max-[38em]:h-[130px]"
+      />
     </div>
   );
 };

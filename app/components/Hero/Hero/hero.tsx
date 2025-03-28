@@ -9,20 +9,20 @@ const Hero = () => {
   return (
     <>
       <div
-        className={`relative w-[100%] h-[auto] flex flex-col items-center  pt-[150px] ${styles.background}  bg-cover bg-center`}
+        className={`relative w-[100%] h-[auto] flex flex-col items-center  pt-[150px] ${styles.background}  bg-cover bg-center `}
       >
         <h1
-          className={`${styles.h1Color} max-w-[900px] text-[64px] text-center font-[500]`}
+          className={`${styles.h1Color} max-w-[900px] text-[64px] text-center font-[500] max-[38em]:text-[45px] max-[38em]:max-w-[600px ]`}
         >
           Effortless Cryto Management All in One Place{" "}
         </h1>
         <p
-          className={` ${styles.h1Color} text-[20px] text-center font-[500] max-w-[650px] mt-[10px]`}
+          className={` ${styles.h1Color} text-[20px] text-center font-[500] max-w-[650px] mt-[10px] max-[38em]:text-[16px] max-[38em]:w-[350px]`}
         >
           Securely track, send, and grow your assets with ease-no complexity,
           Start enjoying access to your currencies today
         </p>
-        <div className="flex gap-[20px] mt-[30px]">
+        <div className="flex gap-[20px] mt-[30px] max-[38em]:flex-col max-[38em]:items-center">
           <ArrowBtn className="bg-[#1A60A6] px-[20px] py-[8px] rounded-[4px] flex gap-[10px]">
             Download App
           </ArrowBtn>

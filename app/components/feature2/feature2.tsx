@@ -12,7 +12,7 @@ const Feature2 = () => {
           <FeatureComp2
             list={featureList2}
             padding="pl-[50px]"
-            className="flex-1 flex pl-[130px] pr-[200px] gap-[80px] py-[50px] bg-[#0D0D0D] border-[1px] border-solid  rounded-[30px] border-[#2171C04D] flex-wrap "
+            className="flex-1 flex pl-[130px] pr-[200px] gap-[40px] py-[50px] bg-[#0D0D0D] border-[1px] border-solid  rounded-[30px] border-[#2171C04D] flex-wrap "
             heading="All in One Secure Place"
             description="Easily track, manage, and switch between assets with a single wallet. Very easy"
             secondFeature={true}

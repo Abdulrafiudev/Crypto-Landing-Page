@@ -13,7 +13,7 @@ const FeaturesCard: React.FC<{
       <div className="w-full flex justify-end">
         <Image src={image} alt="aeroplane" />
       </div>
-      <div className="mt-[20px]">
+      <div className="mt-[20px] max-[38em]:mt-[0]">
         <p className="text-[#FFFFFFB2] text-[14px] font-[400]">{quote}</p>
         <p className="text-[#FFFFFF] font-[600] text-[24px] mt-[15px]">
           {heading}
