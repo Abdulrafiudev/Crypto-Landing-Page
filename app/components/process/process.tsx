@@ -8,10 +8,10 @@ const Process = () => {
     <div className="mt-[100px] w-full flex justify-center pt-[50px] flex-col items-center gap-[70px] max-[38em]:mt-[10px]">
       <div className="flex flex-col items-center gap-[20px] max-[38em]:w-[80%]">
         <p className="text-[#FFFFFFB2] text-[18px] font-[500]">Step by Step</p>
-        <p className="text-[#FFFFFF] font-[500] text-[40px] max-[38em]:text-[30px]">
+        <p className="text-[#FFFFFF] font-[500] text-[40px] max-[38em]:text-[30px] max-[38em]:text-center">
           How Does Cryptic Work
         </p>
-        <ArrowBtn className="bg-[#1A60A61A] px-[25px] py-[8px] rounded-[4px] flex gap-[10px] w-[fit-content]">
+        <ArrowBtn className="bg-[#1A60A61A] px-[25px] py-[8px] rounded-[4px] flex gap-[10px] w-[fit-content] text-[#FFFFFF]">
           {" "}
           Get Started{" "}
         </ArrowBtn>

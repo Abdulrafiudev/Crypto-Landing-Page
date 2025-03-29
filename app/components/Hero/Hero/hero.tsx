@@ -26,7 +26,7 @@ const Hero = () => {
             Download App
           </ArrowBtn>
 
-          <ArrowBtn className="bg-[#1A60A61A] px-[20px] py-[8px] rounded-[4px] flex gap-[10px]">
+          <ArrowBtn className="bg-[#1A60A61A] px-[20px] py-[8px] rounded-[4px] flex gap-[10px] text-[#FFFFFF]">
             Access From The Web
           </ArrowBtn>
         </div>
