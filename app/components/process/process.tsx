@@ -11,10 +11,10 @@ const Process = () => {
         <p className="text-[#FFFFFF] font-[500] text-[40px] max-[38em]:text-[30px]">
           How Does Cryptic Work
         </p>
-        <ArrowBtn
-          className="bg-[#1A60A61A] px-[25px] py-[8px] rounded-[4px] flex gap-[10px] w-[fit-content]"
-          children="Get Started"
-        />
+        <ArrowBtn className="bg-[#1A60A61A] px-[25px] py-[8px] rounded-[4px] flex gap-[10px] w-[fit-content]">
+          {" "}
+          Get Started{" "}
+        </ArrowBtn>
       </div>
       <Image
         src={process}

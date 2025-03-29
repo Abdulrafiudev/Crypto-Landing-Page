@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./hero.module.css";
-import Link from "next/link";
-import { goArrow, iphone15, download, volume } from "@/images";
+import { iphone15, download, volume } from "@/images";
 import ArrowBtn from "../../button/arrowBtn";
 import Image from "next/image";
 
