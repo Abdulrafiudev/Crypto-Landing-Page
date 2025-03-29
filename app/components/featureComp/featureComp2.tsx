@@ -15,7 +15,7 @@ const FeatureComp2: React.FC<{
 }> = ({ list, className, padding, heading, description, secondFeature }) => {
   return (
     <>
-      <div className="flex flex-col gap-[50px]">
+      <div className="flex flex-col gap-[50px] max-[38em]:mt-[20px] max-[38em]:gap-[20px]">
         <div className={clsx("flex flex-col flex-1", padding)}>
           <p className="text-[#FFFFFFB2] text-[18px] font-[500]">Feature</p>
           <p className="mt-[10px] text-[#FFFFFF] text-[40px] font-[600]">
@@ -27,7 +27,7 @@ const FeatureComp2: React.FC<{
         </div>
         {secondFeature && (
           <ArrowBtn
-            className="bg-[#1A60A61A] px-[20px] py-[8px] rounded-[4px] flex gap-[10px] w-[180px] justify-between ml-[50px]"
+            className="bg-[#1A60A61A] px-[20px] py-[8px] rounded-[4px] flex gap-[10px] w-[180px] justify-between ml-[50px] max-[38em]:ml-0 "
             children="Get Started"
           />
         )}

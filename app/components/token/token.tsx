@@ -6,7 +6,7 @@ import { price } from "@/images";
 const Token = () => {
   return (
     <>
-      <div className="flex w-full justify-center mt-[100px] mb-[50px] pt-[50px]">
+      <div className="flex w-full justify-center mt-[100px] mb-[50px] pt-[50px] max-[38em]:mt-[10px]">
         <div className="flex flex-col justify-center w-[75%] items-center px-[60px] max-[38em]:w-[90%]  max-[38em]:px-[0]">
           <div className="flex flex-col gap-[10px]">
             <p className="text-[#FFFFFFB2] font-[500] text-[18px] text-center mb-[10px]">

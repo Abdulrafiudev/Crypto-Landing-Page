@@ -4,7 +4,7 @@ import CarouselCard from "../carouselComponent/carousel";
 const Testimonial = () => {
   return (
     <>
-      <div className="flex justify-center w-full mt-[150px] pt-[80px]">
+      <div className="flex justify-center w-full mt-[150px] pt-[80px] max-[38em]:pt-0 max-[38em]:mt-[90px]">
         <div className="flex flex-col w-[80%] items-center ">
           <p className="text-[#FFFFFFB2] font-[500] text-[18px]">
             Testimonials
