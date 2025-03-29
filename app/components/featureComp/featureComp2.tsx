@@ -26,10 +26,9 @@ const FeatureComp2: React.FC<{
           </p>
         </div>
         {secondFeature && (
-          <ArrowBtn
-            className="bg-[#1A60A61A] px-[20px] py-[8px] rounded-[4px] flex gap-[10px] w-[180px] justify-between ml-[50px] max-[38em]:ml-0 "
-            children="Get Started"
-          />
+          <ArrowBtn className="bg-[#1A60A61A] px-[20px] py-[8px] rounded-[4px] flex gap-[10px] w-[180px] justify-between ml-[50px] max-[38em]:ml-0 ">
+            Get Started
+          </ArrowBtn>
         )}
         <div className={clsx(className)}>
           {list.map((item) => {
