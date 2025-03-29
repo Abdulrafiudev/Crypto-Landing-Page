@@ -24,3 +24,37 @@ body {
   background: var(--backgroundColor);
   color: var(--foreground);
 }
+.slick-slider {
+  width: 100%;
+  margin-top: 40px;
+}
+.slick-slide {
+  width: 100% !important;
+  min-width: 0;
+  padding: 0 !important; /* Ensures no extra spacing */
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 50px;
+}
+.slick-prev {
+  left: -45px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: initial !important;
+  background-color: #2171c033 !important;
+  padding: 10px;
+  border-radius: 100%;
+  color: white;
+}
+@media (max-width: 38em) {
+  .slick-prev {
+    left: -30px !important;
+  }
+  .slick-next {
+    right: -10px !important;
+  }
+}

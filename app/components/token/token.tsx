@@ -16,7 +16,7 @@ const Token = () => {
               Popular Crypto Assets
             </p>
           </div>
-          <div className="flex flex-wrap gap-[80px] gap-y-[40px]  max-[38em]:gap-[10px] max-[38em]:gap-y-[30px]">
+          <div className="flex flex-wrap gap-[80px] gap-y-[40px]  max-[38em]:gap-[5px] max-[38em]:gap-y-[30px] max-[38em]:pl-[20px]">
             {tokenList.map((token) => {
               return (
                 <div key={token.id} className="flex items-center mx-[auto]">

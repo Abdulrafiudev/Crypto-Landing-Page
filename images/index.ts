@@ -20,6 +20,9 @@ import usdt from "../public/img/usdt.png";
 import usdt2 from "../public/img/usdt2.png";
 import bitcoin from "../public/img/bitcoin.png";
 import price from "../public/img/price.png";
+import star from "../public/img/star.png";
+import profile1 from "../public/img/profile1.png";
+import profile2 from "../public/img/profile2.png";
 
 export {
   logo,
@@ -44,4 +47,7 @@ export {
   usdt2,
   bitcoin,
   price,
+  star,
+  profile1,
+  profile2,
 };
