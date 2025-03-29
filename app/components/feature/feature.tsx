@@ -7,7 +7,7 @@ import FeaturesCard from "./featuresCard";
 
 const Feature = () => {
   return (
-    <div className="mt-[100px] h-auto flex w-full pt-[50px] pb-[50px] justify-center ">
+    <div className="mt-[100px] h-auto flex w-full pt-[50px] pb-[50px] justify-center max-[38em]:mt-[50px]">
       <div className="w-[90%]">
         <div className="flex max-[38em]:flex-col">
           <div className="flex flex-col flex-[0.5] max-[38em]:mb-[30px]">

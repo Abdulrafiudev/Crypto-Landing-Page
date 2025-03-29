@@ -5,6 +5,7 @@ import Feature from "../components/feature";
 import Process from "../components/process";
 import Feature1 from "../components/feature1";
 import Feature2 from "../components/feature2";
+import Token from "../components/token";
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <Process />
       <Feature1 />
       <Feature2 />
+      <Token />
     </>
   );
 };

@@ -16,6 +16,10 @@ import iphone15top from "../public/img/iphone15top.png";
 import feature1list from "../public/img/feature1list.png";
 import tick from "../public/img/tick.png";
 import iphone15bottom from "../public/img/iphone15bottom.png";
+import usdt from "../public/img/usdt.png";
+import usdt2 from "../public/img/usdt2.png";
+import bitcoin from "../public/img/bitcoin.png";
+import price from "../public/img/price.png";
 
 export {
   logo,
@@ -36,4 +40,8 @@ export {
   feature1list,
   tick,
   iphone15bottom,
+  usdt,
+  usdt2,
+  bitcoin,
+  price,
 };
