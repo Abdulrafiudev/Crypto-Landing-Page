@@ -19,7 +19,7 @@ const Feature = () => {
               Manage different BTC, USDT, USDC, ETH, and more in one secure
               wallet. seamlessly switch
             </p>
-            <ArrowBtn className="bg-[#1A60A61A] px-[25px] py-[8px] rounded-[4px] flex gap-[10px] w-[fit-content]">
+            <ArrowBtn className="bg-[#1A60A61A] px-[25px] py-[8px] rounded-[4px] flex gap-[10px] w-[fit-content] text-[#FFFFFF]">
               Get Started
             </ArrowBtn>
           </div>

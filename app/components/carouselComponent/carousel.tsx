@@ -32,7 +32,7 @@ const CarouselCard = () => {
         {carouselList.map((item) => {
           return (
             <div
-              className="bg-[#0D0D0D] p-[30px] border-[1px] border-solid border-[#2171C04D] flex flex-col gap-[10px] rounded-[20px] "
+              className="bg-[#0D0D0D] p-[30px] border-[1px] border-solid border-[#2171C04D] flex flex-col gap-[10px] rounded-[20px] max-[38em]:p-[15px]"
               key={item.id}
             >
               <Image src={star} alt="star" />

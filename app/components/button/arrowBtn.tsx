@@ -11,7 +11,7 @@ const ArrowBtn: React.FC<{ children: React.ReactNode; className: string }> = ({
   return (
     <Link href="#" className={clsx(className)}>
       {children}
-      <Image src={goArrow} alt="arrow" height={20} width={20} />
+      <Image src={goArrow} alt="arrow" className="w-[25px] h-auto" />
     </Link>
   );
 };

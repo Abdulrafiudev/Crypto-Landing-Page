@@ -30,7 +30,7 @@ const Token = () => {
                       <Image
                         src={price}
                         alt="price"
-                        className="w-[55px] h-[25px]"
+                        className="w-[55px] h-[25px] max-[38em]:w-[60px] max-[38em]:h-auto"
                       />
                     </div>
                   )}
