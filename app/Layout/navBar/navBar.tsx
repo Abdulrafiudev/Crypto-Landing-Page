@@ -16,7 +16,7 @@ const NavBar = () => {
             className="max-[38em]:z-[10]"
           />
           <div className="flex gap-[40px] max-[38em]:fixed max-[38em]:top-[0px] max-[38em]:left-[0px] max-[38em]:bg-[#0D0D0D] max-[38em]:h-[50vh] max-[38em]:w-[100vw] max-[38em]:flex-col max-[38em]:pl-[45px] max-[38em]:pt-[100px] max-[38em]:gap-[20px] max-[38em]:hidden">
-            {NavBarList.map((nav, index) => {
+            {NavBarList.map((nav) => {
               return (
                 <Link key={nav.id} href={nav.href}>
                   {" "}
