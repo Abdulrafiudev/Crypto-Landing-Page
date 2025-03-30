@@ -16,16 +16,16 @@ const Token = () => {
               Popular Crypto Assets
             </p>
           </div>
-          <div className="flex flex-wrap gap-[80px] gap-y-[40px]  max-[38em]:gap-[5px] max-[38em]:gap-y-[30px] max-[38em]:pl-[20px]">
+          <div className="flex flex-wrap justify-center gap-[80px] gap-y-[40px]  max-[38em]:gap-[0px] max-[38em]:gap-y-[30px] max-[38em]:pl-[30px]">
             {tokenList.map((token) => {
               return (
-                <div key={token.id} className="flex items-center mx-[auto]">
+                <div key={token.id} className="flex items-center mx-[auto] ">
                   {token.image && (
                     <div className="flex gap-[30px]  max-[38em]:flex-col max-[38em]:gap-[10px]">
                       <Image
                         src={token.image}
                         alt="token"
-                        className="max-[38em]:w-[100px]"
+                        className="max-[38em]:w-[110px] max-[38em]:h-auto"
                       />
                       <Image
                         src={price}

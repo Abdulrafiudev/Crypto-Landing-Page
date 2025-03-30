@@ -23,8 +23,8 @@
 body {
   background: var(--backgroundColor);
   color: var(--foreground);
-  width: 100%;
-  overflow-x: hidden;
+  /* width: 100%;
+  overflow-x: hidden; */
 }
 .slick-slider {
   width: 100%;
