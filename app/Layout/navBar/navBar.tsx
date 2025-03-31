@@ -26,7 +26,7 @@ const NavBar = () => {
             className={`flex gap-[40px]   ${
               isMenuOpen
                 ? "max-[38em]:fixed max-[38em]:top-[0px] max-[38em]:left-[0px] max-[38em]:bg-[#0D0D0D] max-[38em]:h-[78vh] max-[38em]:w-[100vw] max-[38em]:flex-col max-[38em]:pl-[10px] max-[38em]:pr-[10px] max-[38em]:pt-[100px] max-[38em]:gap-[20px] max-[38em]:transition-[top] max-[38em]:duration-300"
-                : "max-[38em]:fixed max-[38em]:top-[-100%] max-[38em]:left-[0px] max-[38em]:bg-[#0D0D0D] max-[38em]:h-[78vh] max-[38em]:w-[100vw] max-[38em]:flex-col pl-[10px] max-[38em]:pr-[10px] max-[38em]:pt-[100px] max-[38em]:gap-[20px] max-[38em]:transition-[top] max-[38em]:duration-300"
+                : "max-[38em]:fixed max-[38em]:top-[-100%] max-[38em]:left-[0px] max-[38em]:bg-[#0D0D0D] max-[38em]:h-[78vh] max-[38em]:w-[100vw] max-[38em]:flex-col max-[38em]:pl-[10px] max-[38em]:pr-[10px] max-[38em]:pt-[100px] max-[38em]:gap-[20px] max-[38em]:transition-[top] max-[38em]:duration-300"
             }  `}
           >
             {NavBarList.map((nav) => {
