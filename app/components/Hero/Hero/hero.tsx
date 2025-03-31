@@ -8,6 +8,7 @@ const Hero = () => {
   return (
     <>
       <div
+        id="home"
         className={`relative w-[100%] h-[auto] flex flex-col items-center  pt-[150px] ${styles.background}  bg-cover bg-center `}
       >
         <h1

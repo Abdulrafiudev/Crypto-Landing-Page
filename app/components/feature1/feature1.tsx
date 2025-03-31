@@ -7,7 +7,10 @@ import { featureList1 } from "../featureComp/featuresList1";
 const Feature1 = () => {
   return (
     <>
-      <div className="w-full flex justify-center h-auto mt-[150px]">
+      <div
+        className="w-full flex justify-center h-auto mt-[150px] scroll-mt-24"
+        id="features"
+      >
         <div className="w-[90%] flex max-[38em]:flex-col">
           <FeatureComp iphone15={iphone15top} />
           <FeatureComp2

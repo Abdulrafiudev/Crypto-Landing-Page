@@ -5,7 +5,10 @@ import Image from "next/image";
 
 const Process = () => {
   return (
-    <div className="mt-[100px] w-full flex justify-center pt-[50px] flex-col items-center gap-[70px] max-[38em]:mt-[10px]">
+    <div
+      className="mt-[100px] w-full flex justify-center pt-[50px] flex-col items-center gap-[70px] max-[38em]:mt-[10px] scroll-mt-16"
+      id="how-it-works"
+    >
       <div className="flex flex-col items-center gap-[20px] max-[38em]:w-[80%]">
         <p className="text-[#FFFFFFB2] text-[18px] font-[500]">Step by Step</p>
         <p className="text-[#FFFFFF] font-[500] text-[40px] max-[38em]:text-[30px] max-[38em]:text-center">

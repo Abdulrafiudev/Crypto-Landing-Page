@@ -8,27 +8,37 @@ const NavBarList: navBarListProps[] = [
   {
     id: 1,
     name: "Home",
-    href: "/",
+    href: "#home",
   },
   {
     id: 2,
-    name: "Features",
-    href: "/features",
+    name: "Brand",
+    href: "#brand",
   },
   {
     id: 3,
-    name: "How it works",
-    href: "/how-it-works",
+    name: "About",
+    href: "#about",
   },
   {
     id: 4,
-    name: "Security",
-    href: "/security",
+    name: "How it works",
+    href: "#how-it-works",
   },
   {
     id: 5,
-    name: "Market Cap",
-    href: "/Market-Cap",
+    name: "Features",
+    href: "#features",
+  },
+  {
+    id: 6,
+    name: "Assets",
+    href: "#assets",
+  },
+  {
+    id: 7,
+    name: "Testimonials",
+    href: "#testimonials",
   },
 ];
 
