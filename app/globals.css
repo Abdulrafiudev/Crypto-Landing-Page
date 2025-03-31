@@ -29,6 +29,7 @@ body {
   color: var(--foreground);
   width: 100%;
   overflow-x: hidden;
+  color: white;
 }
 @font-face {
   font-family: "Material Symbols Outlined";
