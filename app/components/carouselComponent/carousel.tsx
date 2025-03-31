@@ -18,7 +18,7 @@ const CarouselCard = () => {
     useTransform: false,
     responsive: [
       {
-        breakpoint: 608,
+        breakpoint: 1180,
         settings: {
           slidesToShow: 1,
           arrows: false,
@@ -30,7 +30,7 @@ const CarouselCard = () => {
 
   return (
     <>
-      <Slider {...settings}>
+      <Slider {...settings} lazyLoad="ondemand">
         {carouselList.map((item) => {
           return (
             <div

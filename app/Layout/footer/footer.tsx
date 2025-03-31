@@ -12,12 +12,12 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="w-full flex justify-center  mt-[50px] pt-[80px] pb-[70px] max-[38em]:pb-[40px]">
+      <div className="w-full flex justify-center  mt-[50px] pt-[80px] pb-[70px] max-[74em]:pb-[40px]">
         <div className="w-[90%] flex flex-col gap-[70px]">
-          <div className="flex justify-between max-[38em]:flex-col max-[38em]:gap-[25px]">
+          <div className="flex justify-between max-[74em]:flex-col max-[74em]:gap-[25px]">
             <div className="flex flex-col">
               <Image src={logo} alt="logo" />
-              <p className="text-[#FFFFFF] text-[18px] font-[500] mt-[50px] max-[38em]:mt-[20px]">
+              <p className="text-[#FFFFFF] text-[18px] font-[500] mt-[50px] max-[74em]:mt-[20px]">
                 Subscribe to our newsletter
               </p>
               <p className="text-[#FFFFFF99] text-[18px] font-[500] mt-[20px]">
@@ -28,9 +28,9 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Enter Email"
-                  className="text-[#FFFFFF4D] text-[14px] font-500 mt-[30px] bg-[#1A60A61A] px-[12px] py-[10px] rounded-[2px] w-full max-[38em]:mt-[10px]"
+                  className="text-[#FFFFFF4D] text-[14px] font-500 mt-[30px] bg-[#1A60A61A] px-[12px] py-[10px] rounded-[2px] w-full max-[74em]:mt-[10px]"
                 />
-                <button className="bg-[#1A60A6] px-[12px] py-[10px] absolute rounded-[4px] right-0 top-[30px] h-[40px] text-center flex items-center cursor-pointer max-[38em]:top-[10px]">
+                <button className="bg-[#1A60A6] px-[12px] py-[10px] absolute rounded-[4px] right-0 top-[30px] h-[40px] text-center flex items-center cursor-pointer max-[74em]:top-[10px]">
                   Send
                 </button>
               </div>
@@ -90,7 +90,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-between max-[38em]:flex-col max-[38em]:gap-[15px]">
+          <div className="flex justify-between max-[74em]:flex-col max-[74em]:gap-[15px]">
             <p className="text-[14px] text-[#FFFFFF99] font-[400]">
               copywright mercy.com. All rights Reserved{" "}
             </p>

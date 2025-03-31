@@ -27,6 +27,9 @@ html {
 .slick-dots li button::before {
   color: #1a60a6 !important;
 }
+.slick-slide {
+  width: 100%;
+}
 
 body {
   background: var(--backgroundColor);
@@ -61,17 +64,21 @@ body {
 
 .slick-slider {
   width: 100%;
+  display: flex;
   margin-top: 40px;
 }
 .slick-slide {
-  width: 100% !important;
+  /* width: 100% !important;
   min-width: 0;
-  padding: 0 !important; /* Ensures no extra spacing */
+  padding: 0 !important; Ensures no extra spacing*/
+}
+.slick-slide > div {
+  padding-inline: 10px;
 }
 
 .slick-track {
-  display: flex !important;
-  gap: 50px;
+  /* display: flex !important;
+  gap: 50px; */
 }
 .slick-prev {
   left: -45px !important;
