@@ -49,7 +49,7 @@ const Feature = () => {
             />
           </div>
         </div>
-        <div className="flex mt-[40px] gap-[20px] max-[38em]:flex-col">
+        <div className="flex mt-[40px] gap-[20px] max-[38em]:flex-col max-[38em]:mt-[20px]">
           <FeaturesCard
             image={aeroplane}
             quote="All IN ONE"

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { logo } from "@/images";
 import Image from "next/image";
 import NavBarList from "./navBarList";
@@ -7,6 +7,25 @@ import Link from "next/link";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOPen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    console.log("running");
+    window.addEventListener("scroll", () => {
+      handleScroll();
+    });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isScrolled]);
+
+  function handleScroll() {
+    if (window.scrollY > 50) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  }
 
   function handleToggle() {
     setIsMenuOPen(!isMenuOpen);
@@ -14,7 +33,11 @@ const NavBar = () => {
   }
   return (
     <>
-      <div className="fixed top-0 right-0 left-0 h-[15%] flex justify-center z-10 max-[38em]:h-[100px]">
+      <div
+        className={`fixed top-0 right-0 left-0 h-[12%] ${
+          isScrolled ? "bg-[#0D0D0D]" : ""
+        } flex justify-center z-10 max-[38em]:h-[100px]`}
+      >
         <div className="w-[90%] flex justify-between items-center">
           <Image
             src={logo}

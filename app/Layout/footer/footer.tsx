@@ -24,6 +24,16 @@ const Footer = () => {
                 Get the latest of our article, news and resources sent in your
                 inbox
               </p>
+              <div className="relative">
+                <input
+                  type="email"
+                  placeholder="Enter Email"
+                  className="text-[#FFFFFF4D] text-[14px] font-500 mt-[30px] bg-[#1A60A61A] px-[12px] py-[10px] rounded-[2px] w-full max-[38em]:mt-[10px]"
+                />
+                <button className="bg-[#1A60A6] px-[12px] py-[10px] absolute rounded-[4px] right-0 top-[30px] h-[40px] text-center flex items-center cursor-pointer max-[38em]:top-[10px]">
+                  Send
+                </button>
+              </div>
             </div>
             <div className="flex flex-col">
               <p className="text-[#FFFFFF] text-[18px] font-[500]">Company</p>
