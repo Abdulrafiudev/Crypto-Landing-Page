@@ -24,6 +24,9 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+.slick-dots li button::before {
+  color: #1a60a6 !important;
+}
 
 body {
   background: var(--backgroundColor);
