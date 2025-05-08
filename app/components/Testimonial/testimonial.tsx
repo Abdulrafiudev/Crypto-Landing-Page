@@ -8,7 +8,7 @@ const Testimonial = () => {
         className="flex justify-center w-full mt-[150px] pt-[80px] max-[38em]:pt-0 max-[38em]:mt-[90px] scroll-mt-16"
         id="testimonials"
       >
-        <div className="flex flex-col w-[80%] items-center  max-[38em]:w-[90%]">
+        <div className="flex flex-col w-[80%] items-center  max-[38em]:w-[90%] max-w-[1900px]">
           <p className="text-[#FFFFFFB2] font-[500] text-[18px]">
             Testimonials
           </p>

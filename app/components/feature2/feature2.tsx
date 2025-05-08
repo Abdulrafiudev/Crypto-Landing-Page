@@ -8,7 +8,7 @@ const Feature2 = () => {
   return (
     <>
       <div className="w-full flex justify-center h-auto mt-[100px] max-[73.75em]:mt-[30px]">
-        <div className="w-[90%] flex max-[73.75em]:flex-col">
+        <div className="w-[90%] flex max-[73.75em]:flex-col max-w-[1900px]">
           <FeatureComp2
             list={featureList2}
             padding="pl-[50px] max-[73.75em]:pl-0"

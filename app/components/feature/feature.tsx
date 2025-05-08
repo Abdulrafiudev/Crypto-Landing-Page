@@ -11,7 +11,7 @@ const Feature = () => {
       className="mt-[100px] h-auto flex w-full pt-[50px] pb-[50px] justify-center max-[63em]:mt-[50px] scroll-mt-16"
       id="about"
     >
-      <div className="w-[90%]">
+      <div className="w-[90%] max-w-[1900px]">
         <div className="flex max-[63em]:flex-col">
           <div className="flex flex-col flex-[0.5] max-[63em]:mb-[30px]">
             <p className="text-[#FFFFFFB2]] text-[18px] font-[500]">Feature</p>

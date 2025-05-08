@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       <div
         id="home"
-        className={`relative w-[100%] h-[auto] flex flex-col items-center  pt-[150px] ${styles.background}  bg-cover bg-center `}
+        className={`relative w-[100%] h-[auto] flex flex-col items-center  pt-[150px] ${styles.background}  bg-cover bg-center max-w-[1900px]`}
       >
         <h1
           className={`${styles.h1Color} max-w-[900px] text-[64px] text-center font-[500] max-[38em]:text-[45px] max-[38em]:max-w-[600px ]`}

@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <div className="w-full flex justify-center  mt-[50px] pt-[80px] pb-[70px] max-[74em]:pb-[40px]">
-        <div className="w-[90%] flex flex-col gap-[70px]">
+        <div className="w-[90%] flex flex-col gap-[70px] max-w-[1900px]">
           <div className="flex justify-between max-[74em]:flex-col max-[74em]:gap-[25px]">
             <div className="flex flex-col">
               <Image src={logo} alt="logo" />

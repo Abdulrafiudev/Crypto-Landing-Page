@@ -11,7 +11,7 @@ const Feature1 = () => {
         className="w-full flex justify-center h-auto mt-[150px] scroll-mt-24"
         id="features"
       >
-        <div className="w-[90%] flex max-[73.75em]:flex-col">
+        <div className="w-[90%] flex max-[73.75em]:flex-col max-w-[1900px]">
           <FeatureComp iphone15={iphone15top} />
           <FeatureComp2
             list={featureList1}

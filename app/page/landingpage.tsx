@@ -10,14 +10,16 @@ import Testimonial from "../components/Testimonial";
 const LandingPage = () => {
   return (
     <>
-      <Hero />
-      <Brand />
-      <Feature />
-      <Process />
-      <Feature1 />
-      <Feature2 />
-      <Token />
-      <Testimonial />
+      <div className="flex flex-col items-center justify-center w-full h-full">
+        <Hero />
+        <Brand />
+        <Feature />
+        <Process />
+        <Feature1 />
+        <Feature2 />
+        <Token />
+        <Testimonial />
+      </div>
     </>
   );
 };

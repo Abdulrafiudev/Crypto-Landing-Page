@@ -38,7 +38,7 @@ const NavBar = () => {
           isScrolled ? "bg-[#0D0D0D]" : ""
         } flex justify-center z-10 max-[74em]:h-[100px]`}
       >
-        <div className="w-[90%] flex justify-between items-center">
+        <div className="w-[90%] flex justify-between items-center max-w-[1900px]">
           <Image
             src={logo}
             alt="logo"
